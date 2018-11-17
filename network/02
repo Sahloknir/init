@@ -1,0 +1,2 @@
+ifconfig en0 | grep broadcast | rev | cut -d " " -f 1 | rev
+ping -c 2 `ifconfig en0 | grep broadcast | rev | cut -d " " -f 1 | rev` | grep "seq=0" | cut -d ":" -f 1 | rev | cut -d " " -f 1 | rev
