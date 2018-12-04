@@ -1,0 +1,3 @@
+en session graphique : menu -> logout -> switch user -> se connecter avec l'autre utilisateur
+
+en session ssh : su - username -> saisir le mot de passe de l'utilisateur

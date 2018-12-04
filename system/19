@@ -1,0 +1,19 @@
+les daemons sont :
+
+avahi-daemon
+cron
+cups
+cups-browsed
+dbus
+hddtemp
+kmod
+lightdm
+live-tools
+lm-sensors
+minissdpd
+network-manager
+networking
+procps
+rsyslog
+speech-dispatcher
+udev
