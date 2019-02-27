@@ -1,1 +1,1 @@
-cat /etc/passwd | cut -d: -f1,3,6 | sed "s/:/ /g"
+cat /etc/passwd | cut -d: -f1,3,6 | sed "s/:/ /g" | cut -d "#" -f4 | sed '/^$/d'
