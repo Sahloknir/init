@@ -1,0 +1,16 @@
+#!/bin/bash
+
+`service --status-all`
+read -p 'do you want to start or stop a service ?: ' var
+
+if [ $var == "start" ]
+then
+	read -p 'what service to start ? ' service
+	`service $service start`
+elif [$var == "stop"]
+then
+	read -p 'what service to stop ? ' service
+	`service $service stop`
+else
+	echo "error"
+fi
